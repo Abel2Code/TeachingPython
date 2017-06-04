@@ -47,13 +47,13 @@ def executeSonicTurn(marioHealth, sonicHealth):
 
 
 # Mario Stats
-marioHealth = 64  # Is the starting health that Mario starts with
+marioHealth = 64  # Is Mario's starting health
 
 marioAttackRange = [6, 8]  # Since this attack value is based on chance, we opt to use a list to hold both values
 marioHeal = 9  # Since the heal is not based on chance, we use an integer instead of a list
 
 # Sonic Stats
-sonicHealth = 44  # Is the starting health that Sonic starts with
+sonicHealth = 44  # Is Sonic's starting health
 
 sonicMainAttackRange = [7, 10]  # Since this attack value is based on chance, we opt to use a list to hold both values
 sonicQuickAttackRange = [2, 5]  # Since this attack value is based on chance, we opt to use a list to hold both values
